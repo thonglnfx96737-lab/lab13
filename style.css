@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+main {
+  padding-top: 56px;
+}
+
+.carousel-slide {
+  min-height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img1 {
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80");
+}
+
+.bg-img2 {
+  background-image: url("https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1600&q=80");
+}
+
+.bg-img3 {
+  background-image: url("https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1600&q=80");
+}
+
+.carousel-caption {
+  max-width: 560px;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%;
+}
